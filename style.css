@@ -1,0 +1,31 @@
+h1 {
+    background-color: #004175;
+    color: white;
+    padding: 3rem;
+    border-bottom: .2rem solid #89DEEF;
+}
+
+body {
+    font-family: 'Open Sans';
+}
+
+.dog-traits {
+    list-style: none;
+}
+
+.dog-traits li {
+    background-color: #89DEEF;
+    display: inline;
+    border-radius: 1rem;
+    padding: .3rem;
+}
+
+h4 {
+    font-family: Oswald;
+    font-size: 1.3rem;
+    margin: .5rem;
+}
+
+.dog-pic {
+    width: 30%
+}
