@@ -7,15 +7,18 @@ h1 {
 
 body {
     font-family: 'Open Sans';
+    margin: 50px;
 }
 
 .dog-traits {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .dog-traits li {
     background-color: #89DEEF;
-    display: inline;
+    display: inline-block;
     border-radius: 1rem;
     padding: .3rem;
 }
@@ -27,5 +30,22 @@ h4 {
 }
 
 .dog-pic {
-    width: 30%
+    width: 100%;
+}
+
+.footer-pics {
+    display: flex;
+    flex-direction: row;
+    width: 33%;
+}
+
+.dog-profile {
+    border: 6px solid pink;
+    width: 33%;
+}
+
+#dogs {}
+
+.row {
+    display: flex;
 }
