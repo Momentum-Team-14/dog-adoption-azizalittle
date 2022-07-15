@@ -21,6 +21,7 @@ body {
     display: inline-block;
     border-radius: 1rem;
     padding: .3rem;
+    margin: .2rem;
 }
 
 h4 {
@@ -42,11 +43,12 @@ h4 {
     display: flex;
 }
 
-.container {
+footer {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
     width: 100%;
-    background-color: #A6A9F0;
+    height: 100px;
+    margin-top: 25px;
 }
 
 h3 {
@@ -59,41 +61,52 @@ h3 {
     width: 100%
 }
 
-.footer-box-donate {
-    width: 100%;
+.donate {
+    width: 33%;
+    min-width: 300px;
+    height: 250px;
+    font-size: 34px;
     text-align: center;
-    justify-content: center;
-    flex: 1 1 auto;
+    vertical-align: middle;
+    line-height: 230px;
+    font-family: Oswald;
+    color: #FFF;
     background:
-        linear-gradient (rgba(166, 169, 240, 0.45),
-            rgba(166, 169, 240, 0.45),
-        ),
-        url(starter_files/images/donate.jpg)
+        linear-gradient(rgba(166, 169, 240, 0.75), rgba(166, 169, 240, 0.75)),
+        url(starter_files/images/donate.jpg) center/cover;
+
 }
 
-.footer-box-volunteer {
-    width: 200px;
-    height: 200px;
-    text-align: center;
-    justify-content: center;
-    flex: 1 1 auto;
-
-
+.volunteer {
     background:
-        linear-gradient (rgba(166, 169, 240, 0.45),
-            rgba(166, 169, 240, 0.45),
-        ),
-        url(starter_files/images/volunteer.jpg)
+        linear-gradient(rgba(166, 169, 240, 0.75), rgba(166, 169, 240, 0.75)),
+        url(starter_files/images/volunteer.jpg) center/cover;
+    width: 33%;
+    min-width: 300px;
+    height: 250px;
+    font-size: 34px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 230px;
+    font-family: Oswald;
+    color: #FFF;
 }
 
-.footer-box-location {
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-    flex: 1 1 auto;
+.location {
     background:
-        linear-gradient (rgba(166, 169, 240, 0.45),
-            rgba(166, 169, 240, 0.45),
-        ),
-        url(starter_files/images/location.jpg)
+        linear-gradient(rgba(166, 169, 240, 0.45), rgba(166, 169, 240, 0.45)),
+        url(starter_files/images/location.png) center/cover;
+    width: 33%;
+    min-width: 300px;
+    height: 250px;
+    font-size: 34px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 230px;
+    font-family: Oswald;
+    color: #FFF;
+}
+
+.dogs {
+    margin: 30px 70px;
 }
